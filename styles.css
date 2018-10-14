@@ -1,0 +1,37 @@
+#pageContents2, .composeMessage, .buapContainer, #buapContents, #buapContentsMessages, .messageForm{
+    width:100vw !important;
+    height: 100vh !important;
+    margin:0 0!important;
+    position: absolute !important;
+    overflow: hidden !important;
+}
+
+.conversation-list, .conversation-box{
+    position: absolute !important;
+    height:100vh !important;
+}
+
+.conversation-list{
+    left:0;
+    min-width: 305px !important;
+    width:33% !important;
+    max-width: 400px !important;
+}
+.conversation-box{
+    right: 0;
+    max-width: none !important;
+    min-width: 0 !important;
+}
+
+.info.clearfix{
+    padding-left: 60px !important;
+}
+
+
+.blueBubble{
+    margin-left: auto !important;
+}
+
+.redBubble{
+    margin-right: auto !important;
+}

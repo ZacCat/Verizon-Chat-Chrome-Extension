@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Customize Verizon Texting",
+    "version": "0.1.0",
+    "description": "Makes the verizon texting webapp fit the screen",
+    "content_scripts": [
+        {
+            "css": [
+                "styles.css"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://web.vma.vzw.com/vma/web2/Message.do*"
+            ]
+        }
+    ]
+}
